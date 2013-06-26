@@ -1,3 +1,221 @@
 /* LESS comment markup is just like CSS and will be seen on view source.*/
 
 // This comment, won't be seen in the markup. It will be invisible. Visit http://demo.pagelines.com/theming for examples on using LESS with PageLines
+
+/* DETAILS COLOURS
+------------------ */
+
+.dt-white {
+  color: @white;
+}
+
+.dt-green {
+  color: @pl-link;
+}
+
+/* DETAILS TYPOGRAPHY
+--------------------- */
+
+.dt-serif {
+  font-family: 'Fauna One';
+}
+
+.dt-sans {
+  font-family: 'Merriweather Sans'; 
+}
+
+h1.dt-header {
+  font-size: 4.3em;
+}
+
+.social-buffer {
+  padding: 0 15px 0 15px;
+}
+
+#icalloutoxkfug {
+  color: @white;
+}
+
+/* DETAILS SECTIONS
+------------------- */
+
+.dt-footer {
+  background: @grayDark;
+  color: @grayLighter;
+}
+
+.dt-whitesection {
+  background: @grayLighter;
+}
+
+.dt-greensection {
+  background: @pl-link;
+}
+
+.dt-services {
+  display: block;
+  color: @white;
+  float: center;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: @pl-link;
+  font-size: 1.7em;
+  padding: 25px 0;
+}
+
+.dt-service-list ul {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.dt-service-list ul li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  line-height: 1.6em;
+}
+
+/* CORE PL EDITS
+---------------- */
+
+.hentry h1, .hentry h2 {
+  margin: 0;
+}
+
+.navbar.pl-color-black-trans {
+  background: @grayDark;
+  border-top: 0px solid rgba(0,0,0,0.9);
+}
+
+.navbar .plbrand .plbrand-text {
+  color: @white;
+  font-size: 1.7em;
+  line-height: 35px;
+}
+
+.navbar .navline > li > a {
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  float: none;
+  display: block;
+  padding: 9px 12px 9px;
+  line-height: 19px;
+  color: @white;
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+.navbar .navline > li > a:hover {
+  color: rgba(255,255,255,0.9);
+}
+.navbar .navline > li > a:hover {
+  background-color: transparent;
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+}
+.navbar .navline > li.dropdown.open > a {
+  color: @white;
+  background: rgba(0,0,0,0.1);
+}
+.navbar .navline > li.current-menu-item > a {
+  background-color: rgba(0,0,0,0.1);
+  color: @white;
+  text-decoration: none;
+}
+.navbar .navline > li.active > a:hover {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  background-color: @grayDarker;
+}
+body .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: @grayDark;
+  border: 1px solid @grayDark;
+  border: 1px solid rgba(51,51,51,0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 5px 10px rgba(51,51,51,0.2);
+  -moz-box-shadow: 0 5px 10px rgba(51,51,51,0.2);
+  box-shadow: 0 5px 10px rgba(51,51,51,0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+body .dropdown-menu li > a,
+body .dropdown-menu li > span {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 21.7px;
+  color: @white;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-menu li.current-menu-item > a {
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+  color: #fff;
+  background-color: @pl-link;
+  background-color: @pl-link;
+  background-image: -moz-linear-gradient(top,@pl-link,@pl-link);
+  background-image: -ms-linear-gradient(top,@pl-link,@pl-link);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(@pl-link),to(@pl-link));
+  background-image: -webkit-linear-gradient(top,@pl-link,@pl-link);
+  background-image: -o-linear-gradient(top,@pl-link,@pl-link);
+  background-image: linear-gradient(top,@pl-link,@pl-link);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@pl-link', endColorstr='@pl-link', GradientType=0);
+}
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  color: @white;
+  text-decoration: none;
+  outline: 0;
+  background-color: @pl-link;
+  background-color: @pl-link;
+  background-image: -moz-linear-gradient(top,@pl-link,@pl-link);
+  background-image: -ms-linear-gradient(top,@pl-link,@pl-link);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(@pl-link),to(@pl-link));
+  background-image: -webkit-linear-gradient(top,@pl-link,@pl-link);
+  background-image: -o-linear-gradient(top,@pl-link,@pl-link);
+  background-image: linear-gradient(top,@pl-link,@pl-link);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@pl-link', endColorstr='@pl-link', GradientType=0);
+}
+.dropdown-menu .disabled > a,
+.dropdown-menu .disabled > a:hover {
+  color: #999;
+}
+.dropdown-menu .disabled > a:hover {
+  text-decoration: none;
+  text-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  cursor: default;
+}

@@ -247,3 +247,12 @@ body .dropdown-menu li > span {
   width: auto;
   max-width: 190px;
 }
+
+// Making sure the ibox colors are good to go.
+.pagelines .ibox .ibox-icon-border.media-type-icon {
+  i { color: @linkColor; }
+  &:hover{
+  background: @linkColor;
+    i { color: @baseColor; }
+  }
+}

@@ -4,6 +4,9 @@ Details is a Child Theme built for the PageLines Framework.  It requires DMS to 
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated thumb and screenshot images
+
 = 1.0.1 =
 * Updated style.css to point to DMS template. Changed from pagelines folder to dms folder after initial release.
 * Changed an icon in the welcome panel.

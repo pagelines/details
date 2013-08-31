@@ -1,220 +1,24 @@
 /*  
-Theme Name: Details Theme
-Theme URI: http://details.usingpagelines.com
-Description: The Details theme is built to run on DMS using only core sections. Details takes full advantage of the new child theme system and provides the end user with a great out-of-the-box website that they can implement exactly as shown.
+Theme Name: PageLines Academy Child Theme
+Theme URI: http://pagelinesacademy.com
+Description: A starter child theme for PageLines DMS.  This theme is based on the PageLines Base Theme and is customized by James Giroux for PageLines Academy.
 Version: 1.0.2
 Author: James Giroux
 Author URI: http://jamesgiroux.ca
 Tags: developer
 
 Template: dms
-V3: true
 
 */
 
-.dt-white {
-  color: #fff;
-}
-.dt-color {
-  color: #66AF33;
-}
-.dt-serif {
-  font-family: 'Fauna One';
-}
-.dt-sans {
-  font-family: 'Merriweather Sans';
-}
-h1.dt-header {
-  font-size: 4.3em;
-}
-.social-buffer {
-  padding: 0 15px 0 15px;
-}
-#icalloutoxkfug {
-  color: #fff;
-}
-.dt-footer {
-  background: #333;
-  color: #eee;
-}
-.dt-whitesection {
-  background: #eee;
-}
-.dt-colorsection {
-  background: #66AF33;
-}
-.dt-services {
-  display: block;
-  color: #fff;
-  float: center;
-  width: 100%;
-  text-transform: uppercase;
-  background-color: #66AF33;
-  font-size: 1.7em;
-  padding: 25px 0;
-}
-.dt-service-list ul {
-  display: block;
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-}
-.dt-service-list ul li {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
-  text-transform: uppercase;
-  display: block;
-  width: 100%;
-  line-height: 1.6em;
-}
-.hentry h1,
-.hentry h2 {
-  margin: 0;
-}
-.navbar.pl-color-black-trans {
-  background: #333;
-  border-top: 0px solid rgba(0,0,0,0.9);
-}
-.navbar .plbrand .plbrand-text {
-  color: #fff;
-  font-size: 1.7em;
-  line-height: 35px;
-}
-.navbar .navline > li > a {
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-  float: none;
-  display: block;
-  padding: 9px 12px 9px;
-  line-height: 19px;
-  color: #fff;
-  color: rgba(255,255,255,0.8);
-  text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-}
-.navbar .navline > li > a:hover {
-  color: rgba(255,255,255,0.9);
-}
-.navbar .navline > li > a:hover {
-  background-color: transparent;
-  color: rgba(255,255,255,0.9);
-  text-decoration: none;
-}
-.navbar .navline > li.dropdown.open > a {
-  color: #fff;
-  background: rgba(0,0,0,0.1);
-}
-.navbar .navline > li.current-menu-item > a {
-  background-color: rgba(0,0,0,0.1);
-  color: #fff;
-  text-decoration: none;
-}
-.navbar .navline > li.active > a:hover {
-  color: rgba(255,255,255,0.9);
-  text-decoration: none;
-  background-color: #222;
-}
-body .dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 160px;
-  padding: 5px 0;
-  margin: 2px 0 0;
-  list-style: none;
-  background-color: #333;
-  border: 1px solid #333;
-  border: 1px solid rgba(51,51,51,0.2);
-  *border-right-width: 2px;
-  *border-bottom-width: 2px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  -webkit-box-shadow: 0 5px 10px rgba(51,51,51,0.2);
-  -moz-box-shadow: 0 5px 10px rgba(51,51,51,0.2);
-  box-shadow: 0 5px 10px rgba(51,51,51,0.2);
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
-  background-clip: padding-box;
-}
-body .dropdown-menu li > a,
-body .dropdown-menu li > span {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: normal;
-  line-height: 21.7px;
-  color: #fff;
-  white-space: nowrap;
-  cursor: pointer;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -ms-transition: none;
-  transition: none;
-}
-.dropdown-menu li > a:hover,
-.dropdown-menu li > a:focus,
-.dropdown-submenu:hover > a,
-.dropdown-menu li.current-menu-item > a {
-  text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
-  color: #fff;
-  background-color: #66AF33;
-  background-color: #66AF33;
-  background-image: -moz-linear-gradient(top,#66AF33,#66AF33);
-  background-image: -ms-linear-gradient(top,#66AF33,#66AF33);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#66AF33),to(#66AF33));
-  background-image: -webkit-linear-gradient(top,#66AF33,#66AF33);
-  background-image: -o-linear-gradient(top,#66AF33,#66AF33);
-  background-image: linear-gradient(top,#66AF33,#66AF33);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@pl-link',endColorstr='@pl-link',GradientType=0);
-}
-.dropdown-menu .active > a,
-.dropdown-menu .active > a:hover {
-  color: #fff;
-  text-decoration: none;
-  outline: 0;
-  background-color: #66AF33;
-  background-color: #66AF33;
-  background-image: -moz-linear-gradient(top,#66AF33,#66AF33);
-  background-image: -ms-linear-gradient(top,#66AF33,#66AF33);
-  background-image: -webkit-gradient(linear,0 0,0 100%,from(#66AF33),to(#66AF33));
-  background-image: -webkit-linear-gradient(top,#66AF33,#66AF33);
-  background-image: -o-linear-gradient(top,#66AF33,#66AF33);
-  background-image: linear-gradient(top,#66AF33,#66AF33);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@pl-link',endColorstr='@pl-link',GradientType=0);
-}
-.dropdown-menu .disabled > a,
-.dropdown-menu .disabled > a:hover {
-  color: #999;
-}
-.dropdown-menu .disabled > a:hover {
-  text-decoration: none;
-  text-shadow: none;
-  background-color: transparent;
-  background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-  cursor: default;
-}
-.navbar .navline.pull-right {
-  float: right;
-  position: relative;
-  margin-top: 3em;
-}
-.navbar .plbrand img {
-  max-height: 8em;
-  padding: 5px 1%;
-}
-
-.navbar .searchform {
-  float: right;
-  margin-top: 3em;
-  width: auto;
-  max-width: 190px;
-}
+/*
+ * File Naming Conventions
+ * -------------------------------------
+ *	style.css 		 - Main theme style file.
+ *  style.less       - All CSS and LESS syntax.
+ *  thumb.png		 - Thumbnail image used in the store and on pagelines.com for your product.
+ *  screenshot.png	 - Primary screenshot, logo or graphic for your extension item (300px by 225px).
+ *	screenshot-1.png - Additional screenshots -1 -2 -3 etc (optional).
+ *	page.example.php - Custom page template, check the file for syntax. This is autoloaded.
+ *	sections/		 - Bundle sections with your theme in this folder, each section in a seperate folder.
+ */

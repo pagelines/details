@@ -4,6 +4,10 @@ Details is a Child Theme built for the PageLines Framework.  It requires DMS to 
 
 == Changelog ==
 
+= 2.0.1 =
+* Removed disallowed section
+* Updated style.css
+
 = 2.0 =
 * Everything is new, all new pages, new layouts, new images, new sections.  This is a totally rebuild of the entire theme.  Please not that if you are upgrading from 1.0.2 to 2.0 things will be dramatically different.  You would be better off just starting it as a new site.
 
